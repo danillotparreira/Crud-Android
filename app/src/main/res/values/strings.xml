@@ -1,3 +1,23 @@
 <resources>
-    <string name="app_name">Crud</string>
+    <string name="app_name">Usuarios</string>
+    <string name="attention">Atenção</string>
+    <string name="back_button">Voltar</string>
+    <string name="delete">Deletar</string>
+    <string name="delete_question">Você tem certeza que deseja remover?</string>
+    <string name="no_item_description">Oops!\nNão existe nenhum registro.\nClick no + para adicionar.</string>
+    <string name="edit_item_title">Editar usuário</string>
+    <string name="item">Usuário</string>
+    <string name="item_detail_title">Detalhes do usuário</string>
+    <string name="item_entry_title">Adicionar Usuário</string>
+    <string name="name_req">Nome usuário*</string>
+    <string name="email_req">Email*</string>
+    <string name="age_req">Idade*</string>
+    <string name="no">Nº</string>
+<!--    <string name="quantity_in_stock">Quantity in stock</string>-->
+<!--    <string name="in_stock">%d in stock</string>-->
+<!--    <string name="quantity_req">Quantity in Stock*</string>-->
+    <string name="save_action">Salvar</string>
+<!--    <string name="sell">Sell</string>-->
+    <string name="yes">Sim</string>
+    <string name="required_fields">*campo requirido</string>
 </resources>

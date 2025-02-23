@@ -9,6 +9,12 @@ import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
 import br.ufg.inf.android.crud.ui.home.HomeDestination
 import br.ufg.inf.android.crud.ui.home.HomeScreen
+import br.ufg.inf.android.crud.ui.item.ItemDetailsDestination
+import br.ufg.inf.android.crud.ui.item.ItemDetailsScreen
+import br.ufg.inf.android.crud.ui.item.ItemEditDestination
+import br.ufg.inf.android.crud.ui.item.ItemEditScreen
+import br.ufg.inf.android.crud.ui.item.ItemEntryDestination
+import br.ufg.inf.android.crud.ui.item.ItemEntryScreen
 
 /**
  * Provides Navigation graph for the application.
