@@ -4,7 +4,7 @@
     <string name="back_button">Voltar</string>
     <string name="delete">Deletar</string>
     <string name="delete_question">Você tem certeza que deseja remover?</string>
-    <string name="no_item_description">Oops!\nNão existe nenhum registro.\nClick no + para adicionar.</string>
+    <string name="no_item_description">Oops!\nNão existe nenhum registro.\nPressione o + para adicionar.</string>
     <string name="edit_item_title">Editar usuário</string>
 <!--    <string name="item">Usuário</string>-->
     <string name="name_req">Nome*</string>
