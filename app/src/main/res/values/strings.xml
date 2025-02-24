@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Usuarios</string>
+    <string name="app_name">Pessoa</string>
     <string name="attention">Atenção</string>
     <string name="back_button">Voltar</string>
     <string name="delete">Deletar</string>

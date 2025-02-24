@@ -169,12 +169,12 @@ private fun InventoryItem(
                 )
                 Spacer(Modifier.weight(1f))
                 Text(
-                    text = item.toString(),
+                    text = item.age.toString(),
                     style = MaterialTheme.typography.titleMedium
                 )
             }
             Text(
-                text = stringResource(item.age),
+                text = item.email,
                 style = MaterialTheme.typography.titleMedium
             )
         }
