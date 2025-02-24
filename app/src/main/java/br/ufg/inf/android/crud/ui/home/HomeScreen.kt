@@ -43,7 +43,6 @@ import br.ufg.inf.android.crud.InventoryTopAppBar
 import br.ufg.inf.android.crud.R
 import br.ufg.inf.android.crud.data.Item
 import br.ufg.inf.android.crud.ui.AppViewModelProvider
-import br.ufg.inf.android.crud.ui.item.formatedPrice
 import br.ufg.inf.android.crud.ui.navigation.NavigationDestination
 import br.ufg.inf.android.crud.ui.theme.InventoryTheme
 
@@ -170,7 +169,7 @@ private fun InventoryItem(
                 )
                 Spacer(Modifier.weight(1f))
                 Text(
-                    text = item.formatedPrice(),
+                    text = item.toString(),
                     style = MaterialTheme.typography.titleMedium
                 )
             }
@@ -187,7 +186,9 @@ private fun InventoryItem(
 fun HomeBodyPreview() {
     InventoryTheme {
         HomeBody(listOf(
-            Item(1, "Game", 100.0, 20), Item(2, "Pen", 200.0, 30), Item(3, "TV", 300.0, 50)
+            Item(1, "teste", "email@email.com", 20),
+            Item(2, "teste2", "email2@email.com", 30),
+            Item(3, "teste3", "email3@email.com", 50)
         ), onItemClick = {})
     }
 }
@@ -205,7 +206,7 @@ fun HomeBodyEmptyListPreview() {
 fun InventoryItemPreview() {
     InventoryTheme {
         InventoryItem(
-            Item(1, "João", "joao@android.com", 20),
+            Item(1, "teste", "email@email.com", 20),
         )
     }
 }
